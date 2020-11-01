@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PantallaLand2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity2">
+
+    <Switch
+        android:id="@+id/reproductor2"
+        android:layout_width="96dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="16dp"
+        android:text="Switch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/botonFilms"
+        android:layout_width="160dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/films"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/botonSpecies"
+        android:layout_width="160dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="412dp"
+        android:background="@drawable/species"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/numeroPantalla2"
+        android:layout_width="45dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boton1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
