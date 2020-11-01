@@ -34,19 +34,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-
-        val mp = MediaPlayer.create(this, R.raw.musicadefondo)
-
-        reproductor1.setOnCheckedChangeListener { _, isChecked ->
-            if (reproductor1.isChecked) {
-                mp.start()
-                reproductor1.setSaveEnabled(true)
-            } else {
-                mp.stop()
-                reproductor1.setChecked(false)
-
-            }
-        }
+        
     }
 
 }
