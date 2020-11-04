@@ -19,6 +19,7 @@ class spaceshipsPnt : AppCompatActivity() {
         val StarWarsRepo = SpaceshipsRepo(StarWarsGeter)
         val StarWarsListAdapter = RecyclerViewAdapterSpaceships()
 
+
         StarWarsRepo.listarItem {
             if(it != null){
                 StarWarsListAdapter.listaStarWars = it
@@ -30,4 +31,6 @@ class spaceshipsPnt : AppCompatActivity() {
         rcvStarWarsList.layoutManager = LinearLayoutManager(this)
         rcvStarWarsList.adapter = StarWarsListAdapter
     }
+
+
 }

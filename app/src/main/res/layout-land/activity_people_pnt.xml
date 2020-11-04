@@ -8,4 +8,15 @@
     android:background="@drawable/hrzpeople"
     tools:context=".peoplePnt">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvPeople"
+        android:layout_width="539dp"
+        android:layout_height="209dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.679" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
